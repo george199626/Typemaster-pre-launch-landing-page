@@ -1,6 +1,6 @@
 <h1># Frontend Mentor - Typemaster-pre-launch landing page</h1>
 
-<h2>Solution for the Typemaster-pre-launch landing page chalange from Frontendmentor. 
+<h2>Solution for the Typemaster pre-launch landing page chalange from Frontendmentor. 
 Fully responsive(Mobile,Tablet,Desktop)</h2>
 
 <h2>Created with:</h2>
