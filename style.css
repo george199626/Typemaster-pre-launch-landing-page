@@ -1,0 +1,366 @@
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+#photo1-desktop,
+#photo1-tablet {
+  display: none;
+}
+#tablet-key-1,
+#desktop-key-1,
+#tablet-key-2,
+#desktop-key-2 {
+  display: none;
+}
+
+#square,
+#square2 {
+  display: none;
+}
+
+#top-header-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+#header-top-button {
+  width: 150px;
+  height: 48px;
+  background: #e8eff2;
+  border-radius: 8px;
+  border: none;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #162542;
+}
+#header-top-button:hover {
+  cursor: pointer;
+  background: #162542;
+  color: #ffffff;
+}
+#header-content-div {
+  padding: 24px;
+}
+#header-content-div h1 {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #162542;
+}
+#header-content-div p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b8bad;
+}
+#pre-order-div {
+  display: flex;
+  justify-content: space-between;
+}
+#header-bottom-button {
+  width: 150px;
+  height: 48px;
+  background: #f16718;
+  border-radius: 8px;
+  border: none;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+#header-bottom-button:hover {
+  cursor: pointer;
+  background: #ff9b62;
+}
+#pre-order-div p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #7b8bad;
+}
+
+#photo1-mobile {
+  max-width: 100%;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 24px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.key-photos-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-right: 24px;
+  margin-top: 25px;
+}
+
+#mobile-key-2 {
+  width: 100%;
+  border-radius: 20px;
+}
+#mobile-key-1 {
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: multiply;
+  opacity: 0.75;
+  border-top-right-radius: 20px;
+}
+#key1 {
+  background-color: #f16718;
+  width: 35%;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+#key2 {
+  width: 60%;
+}
+#texts {
+  margin-top: 50px;
+}
+#texts h1 {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #162542;
+}
+#texts p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #7b8bad;
+}
+.content-section {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding: 24px;
+}
+.content-divs {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.content-divs h1 {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #162542;
+}
+.content-divs p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #7b8bad;
+}
+.content-divs svg {
+  background: #f16718;
+  border-radius: 16px;
+  width: 60px;
+  height: 60px;
+}
+.footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 50px;
+}
+.footer p {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7b8bad;
+}
+.icon-div {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f16718;
+  border-radius: 16px;
+  margin: 0 auto;
+}
+
+/* TABLET RESPONSIVE */
+@media screen and (min-width: 750px) {
+  #photo1-mobile {
+    display: none;
+  }
+  #photo1-tablet {
+    display: block;
+    max-width: 100%;
+    position: relative;
+    margin-left: 170px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  #top-header-div {
+    padding: 40px;
+  }
+  #header-content-div {
+    display: flex;
+    padding: 40px;
+  }
+  #mobile-key-1,
+  #mobile-key-2 {
+    display: none;
+  }
+
+  #tablet-key-2 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  #tablet-key-1 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    mix-blend-mode: multiply;
+    opacity: 0.75;
+  }
+  #key1 {
+    border-radius: 20px;
+  }
+  .key-photos-section {
+    padding-right: 0px;
+    padding: 40px;
+  }
+  #texts {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #texts h1 {
+    text-align: left;
+  }
+  #texts p {
+    text-align: left;
+  }
+
+  .content-divs {
+    width: 45%;
+    margin-top: 0px;
+    margin: 10px;
+  }
+  .content-divs p {
+    text-align: left;
+  }
+  .content-divs h1 {
+    text-align: left;
+  }
+  .icon-div {
+    margin: 0;
+  }
+}
+
+/* DESKTOP RESPONSIVE */
+@media screen and (min-width: 1350px) {
+  #top-header-div {
+    padding: 55px 160px;
+  }
+  #photo1-tablet {
+    display: none;
+  }
+  #tablet-key-1,
+  #tablet-key-2 {
+    display: none;
+  }
+  #key1 {
+    width: 20%;
+    border-radius: 20px;
+  }
+  #key2 {
+    width: 35%;
+    border-radius: 20px;
+  }
+  #texts {
+    width: 30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #desktop-key-1 {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 20px;
+    mix-blend-mode: multiply;
+    opacity: 0.75;
+  }
+  #desktop-key-2 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  #photo1-desktop {
+    display: block;
+    max-width: 100%;
+    position: relative;
+    margin-left: 180px;
+    border-radius: 20px;
+  }
+  #square {
+    display: block;
+    position: relative;
+    left: 300px;
+  }
+
+  #square2 {
+    display: block;
+    margin-left: -300px;
+    width: 250px;
+    height: 230px;
+  }
+  #header-content-div {
+    padding: 55px 160px;
+  }
+  .key-photos-section {
+    padding: 0px 160px;
+  }
+  .content-divs {
+    width: 21%;
+    margin: 20px;
+  }
+  .content-section {
+    padding: 0px 160px;
+  }
+}
